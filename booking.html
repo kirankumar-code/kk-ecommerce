@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>BUS BOOKING</title>
+        <meta name="viewport" content="width-device-width,initial-scale=1">
+        <link rel="stylesheet" href="booking.css">
+        <script src="booking.js"></script>
+    </head>
+    <body>
+        <h1 class="k">BUS BOOKING</h1>
+        <section class="BOOKING">
+            <h2 class="k3">HYDERABAD-VIZAG TICKETS</h2>
+            <div class="booking">
+                <h3>SLEEPER</h3>
+                <h4>Price : 1500</h4>
+                <h5> <button class="btn1"type="submit" onclick="Ticketvalue('(HYD-VIZAG)SLEEPER',1500)">Add Tickets</button> </h5>
+                <h3>SEATER</h3>
+                <h4>Price: 900</h4>
+                <h5> <button class="btn1"type="submit" onclick="Ticketvalue('(HYD-VIZAG)SEATER',900)">Add Tickets</button> </h5>
+                <h3>SEMI SLEEPER</h3>
+                <h4>Price: 1200</h4>
+                <h5> <button class="btn1"type="submit" onclick="Ticketvalue('(HYD-VIZAG)SEMISLPR',1200)">Add Tickets</button> </h5>
+                <br>
+                <br><br>
+            </div>
+        </section>
+        <br>
+        <br>
+        <section class="BOOKING1">
+            <h2 class="k1">HYDERABAD-BENGALURU TICKETS</h2>
+            <div class="booking1">
+                <h3>SLEEPER</h3>
+                <h4>Price : 2000</h4>
+                <h5> <button class="btn2"type="submit" onclick="Ticketvalue('(HYD-BLR)SLEEPER',2000)">Add Tickets</button> </h5>
+                <h3>SEATER</h3>
+                <h4>Price: 1500</h4>
+                <h5> <button class="btn2"type="submit" onclick="Ticketvalue('(HYD-BLR)SEATER',1500)">Add Tickets</button> </h5>
+                <h3>SEMI SLEEPER</h3>
+                <h4>Price: 1800</h4>
+                <h5> <button class="btn2"type="submit" onclick="Ticketvalue('(HYD-BLR)SEMISLPR',1800)">Add Tickets</button> </h5>
+                <br>
+                <br><br>
+            </div>
+        </section>
+        <br>
+        <br>
+        <section class="BOOKING2">
+            <h2 class="k2">HYDERABAD-MUMBAI TICKETS</h2>
+            <div class="booking2">
+                <h3>SLEEPER</h3>
+                <h4>Price : 2200</h4>
+                <h5> <button class="btn3"type="submit" onclick="Ticketvalue('(HYD-MUM)SLEEPER',2200)">Add Tickets</button> </h5>
+                <h3>SEATER</h3>
+                <h4>Price: 1500</h4>
+                <h5> <button class="btn3"type="submit" onclick="Ticketvalue('(HYD-MUM)SEATER',1500)">Add Tickets</button> </h5>
+                <h3>SEMI SLEEPER</h3>
+                <h4>Price: 2000</h4>
+                <h5> <button class="btn3"type="submit" onclick="Ticketvalue('(HYD-MUM)SEMISLPR',2000)">Add Tickets</button> </h5>
+                <br>
+                <br><br>
+                </div>
+                <div class="ka">
+                    <a href="#cart"><button class="kaa">GET TICKETS DETAILS</button></a>
+                </div>
+                <div class="j" id="cart">
+                </div>
+        </section>
+        <div class="kk">
+            <button class="btn4" onclick="addnew()"> CLICK ME FOR TICKET DETAILS</button>
+		</div>
+			<div class="y" id="container">
+			</div>
+                <fieldset class="kkk">
+                <table border="2" cellpadding="10px" cellspacing="10px" bgcolor="lightgreen" align="center" width="1000px" height="500px">
+                    <tr>
+                        <td>
+                            <h4><label>Full Name</label></h4>
+                        </td>
+                        <td>
+                            <input type="text" name="name" required>
+                        </td>
+                        <tr>
+                            <td>
+                                 <h4><label> Email :</label></h4>
+                            </td>
+                            <td>
+                                <input type="text" name="email" required>
+                            </td>
+                            <tr>
+                                <td>
+                                    <h4><label> Age : </label></h4> 
+                                </td>
+                                <td>
+                                    <input type="number" name="Age" required>
+                                </td>
+                                <tr>
+                                    <td>
+                                        <h4><label>  Mobile :<label></h4> 
+                                    </td>
+                                    <td>
+                                        <input type="number" name="Mobile" required>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <h4><label> Gender :</label></h4>
+                                    </td>
+                                    <td>
+                                        <input type="radio" name="Gender" value="male">male
+                                        <br>
+                                        <input type="radio" name="Gender" value="female">Female
+                                    </td>
+                                    <tr>
+                                        <td>
+                                            <h4><label> TOTAL AMOUNT: :</label></h4>
+                                        </td>
+                                        <td>
+                                            <input type="number" name="Total Amount" required>
+                                        </td>
+                                    </tr>
+                                </tr>
+    
+    
+                            </tr>
+                        </tr>
+                    </tr>
+                  </table>
+              </fieldset>
+              <div class="rk">
+                <a href="booking1.html">SUBMIT</a>
+            </div>
+    </body>
+    </html>

@@ -1,0 +1,403 @@
+@media (min-width: 1200px){
+body{
+	background-image: url(https://wallpapers.com/images/featured/travel-laptop-0m6r2w9ywrwtb81n.jpg);
+}
+.k{
+	position: relative;
+	color: brown;
+    text-align: center;
+	border: solid;
+	border-radius: 30px;
+	background-color: aqua;
+	padding: 10px;
+
+}
+.k1{
+    color: red;
+	text-align: center;
+    position: relative;
+    left: 460px;
+    bottom: 650px;
+	border: solid;
+	background-color: black;
+	border-radius: 40px;
+	padding: 15px;
+	margin-right: 1030px;
+}
+.k2{
+    color:chartreuse;
+	text-align: center;
+    position: relative;
+    left: 970px;
+    bottom: 1305px;
+	border: solid;
+	border-radius: 40px;
+	background-color: black;
+	padding: 15px;
+	margin-right: 1050px;
+}
+.k3{
+	color:cornflowerblue;
+	text-align: center;
+	position: relative;
+	border: solid;
+	background-color: black;
+	border-radius: 40px;
+	padding: 15px;
+	margin-right: 1100px;
+	left: 10px;
+	top: 5px;
+}
+.kk{
+    text-align: center;
+}
+.kaa{
+	position: relative;
+	background-color: yellow;
+	border: solid;
+	border-radius: 30px;
+	bottom: 1350px;
+	left: 620px;
+}
+.booking{
+	display: block;
+	position: relative;
+	left: 30px;
+	bottom: 15px;
+    text-align: center;
+	width: 360PX;
+    border: solid;
+	background-color: bisque;
+	border-radius: 50px;
+}
+.booking1{
+	display: block;
+    border: solid;
+    position: relative;
+    left: 500px;
+    bottom: 670px;
+    text-align: center;
+	width: 400PX;
+	background-color: bisque;
+	border-radius: 50px;
+}
+.booking2{
+	display: block;
+    border: solid;
+    position: relative;
+    left: 1000px;
+    bottom: 1325px;
+    text-align: center;
+	width: 400PX;
+    background-color: bisque;
+	border-radius: 50px;
+}
+.btn1{
+    display: inline-block;
+	width : 50%;
+	border-radius: 20px;
+    background-color: brown;
+    font-size: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn1:hover{
+	background-color: skyblue;
+}
+button{
+	padding : 10px;
+}
+.btn2{
+	width : 50%;
+	border-radius: 30px;
+    background-color: orange;
+    font-size: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn2:hover{
+	background-color: skyblue;
+}
+button{
+	padding : 10px;
+}
+.btn3{
+	width : 50%;
+	border-radius: 30px;
+    background-color: purple;
+    font-size: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn3:hover{
+	background-color: skyblue;
+}
+button{
+	padding : 10px;
+}
+.btn4{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    border: solid;
+    border-radius: 25px;
+	background-color: aquamarine;
+}
+
+.y div{
+	margin : 10px;
+	border-radius: 20px;
+	text-align: center;
+	border: solid;
+	height : 50px;
+	width: 200px;
+	align-content: center;
+	font-weight: bold;
+}
+.y{
+	display: none;
+	padding : 45px;
+	grid-template-columns: 250px auto ;
+	justify-content: center;
+	justify-items: center;
+	margin : 10px;
+	border: solid;
+	border-radius: 30px;
+	background-color: pink;
+	animation-name : ani2;
+	animation-delay: 0.2s;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+.y div:nth-child(1) {
+	border-color: green;
+	color : green;
+	font-weight : bold;
+	font-size: 25px;
+	align-content: center;
+	font-family: courier;
+}
+.y div:nth-child(2) {
+	border-color: green;
+	font-weight: bold;
+	color : orange;
+	font-size : 25px;
+	align-content: center;
+	font-family: courier;
+}
+.y div:hover{
+	border-color: green;
+	font-weight: bold;
+	font-size: 25px;
+	color : orange;
+	align-content: center;
+	font-family: courier;
+	padding : 10px;	
+}
+.kkk{
+    height: 100%;
+    width: 100%;
+}
+.rk{
+	position: relative;
+	text-align: center;
+	border: solid;
+	border-radius: 30px;
+	font-size: 30px;
+	font-family: 'Courier New', Courier, monospace;
+	background-color: coral;
+	padding: 15px;
+	width: 50%;
+	left: 350px;
+}
+.bb{
+	text-align: center;
+	position: relative;
+	border: dashed;
+	border-radius: 30px;
+	padding: 20px;
+	top: 300px;
+	margin-left: 250px;
+	margin-right: 250px;
+	background-color:darkorange;
+}
+}
+@media (min-width: 100px){
+	body{
+		background-color: pink;
+	}
+	.k{
+		position: relative;
+		color: brown;
+		text-align: center;
+		border: solid;
+		border-radius: 30px;
+		background-color: aqua;
+		padding: 10px;
+	}
+	.k3{
+		color:cornflowerblue;
+	    text-align: center;
+	    position: relative;
+	    border: solid;
+	    background-color: black;
+	    border-radius: 40px;
+		padding: auto;
+	}
+	.booking{
+		position: relative;
+		text-align: center;
+		border: solid;
+		background-color: bisque;
+		border-radius: 50px;
+	}
+	.btn1{
+		display: inline-block;
+		width : 50%;
+		border-radius: 20px;
+		background-color: brown;
+		font-size: 15px;
+		color: white;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	.k1{
+		color: red;
+		text-align: center;
+		position: relative;
+		border: solid;
+		background-color: black;
+		border-radius: 40px;
+		padding: auto;
+	}
+	.booking1{
+		border: solid;
+		position: relative;
+		text-align: center;
+		background-color: bisque;
+		border-radius: 50px;
+	}
+	.btn1:hover{
+		background-color: skyblue;
+	}
+	.btn2{
+		width : 50%;
+		border-radius: 30px;
+		background-color: orange;
+		font-size: 15px;
+		color: white;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	.btn2:hover{
+		background-color: skyblue;
+	}
+	.k2{
+		color:chartreuse;
+		text-align: center;
+		position: relative;
+		border: solid;
+		border-radius: 40px;
+		background-color: black;
+		padding: auto;
+	}
+	.booking2{
+		border: solid;
+		position: relative;
+		text-align: center;
+		background-color: bisque;
+		border-radius: 50px;
+	}
+	.btn3{
+		width : 50%;
+		border-radius: 30px;
+		background-color: purple;
+		font-size: 15px;
+		color: white;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	.btn3:hover{
+		background-color: skyblue;
+	}
+	.kk{
+		text-align: center;
+	}
+	.kaa{
+		background-color: yellow;
+		border: solid;
+		border-radius: 30px;
+	}
+	.btn4{
+		font-size: 30px;
+		font-family: 'Courier New', Courier, monospace;
+		border: solid;
+		border-radius: 25px;
+		background-color: aquamarine;
+	}
+	.y div{
+		margin : 10px;
+		border-radius: 20px;
+		text-align: center;
+		border: solid;
+		height : 50px;
+		width: 200px;
+		align-content: center;
+		font-weight: bold;
+	}
+	.y{
+		display: none;
+		position: relative;
+		padding : 45px;
+		grid-template-columns: 250px auto ;
+		justify-content: center;
+		justify-items: center;
+		margin : 10px;
+		border: solid;
+		border-radius: 30px;
+		background-color: pink;
+	}
+	.y div:nth-child(1) {
+		border-color: green;
+		color : green;
+		font-weight : bold;
+		font-size: 25px;
+		align-content: center;
+		font-family: courier;
+	}
+	.y div:nth-child(2) {
+		border-color: green;
+		font-weight: bold;
+		color : orange;
+		font-size : 25px;
+		align-content: center;
+		font-family: courier;
+	}
+	.y div:hover{
+		border-color: green;
+		font-weight: bold;
+		font-size: 25px;
+		color : orange;
+		align-content: center;
+		font-family: courier;
+		padding : 10px;	
+	}
+	.rk{
+		text-align: center;
+		border: solid;
+		border-radius: 30px;
+		font-size: 30px;
+		font-family: 'Courier New', Courier, monospace;
+		background-color: coral;
+		padding: 15px;
+		width: 50%;
+	}
+	.bb{
+		text-align: center;
+	    position: relative;
+	    border: dashed;
+	    border-radius: 30px;
+	    padding: 20px;
+	    top: 300px;
+	    margin-left: 250px;
+	    margin-right: 250px;
+	    background-color:darkorange;
+	}
+
+}
